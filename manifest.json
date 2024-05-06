@@ -1,0 +1,14 @@
+{
+  "name": "Commentify",
+  "id": "1362394978320737966",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "capabilities": ["inspect"],
+  "enableProposedApi": false,
+  "enablePrivatePluginApi": true,
+  "documentAccess": "dynamic-page",
+  "editorType": ["dev"],
+  "networkAccess": {
+    "allowedDomains": ["https://api.figma.com", "https://fonts.googleapis.com"]
+  }
+}
